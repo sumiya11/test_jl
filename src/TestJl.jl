@@ -1,6 +1,9 @@
 
 module TestJl
-    export f
+
+    include("do_smth.jl")
+
+    export f, g
 
     f(x) = x + 2
 
