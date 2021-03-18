@@ -1,6 +1,7 @@
 
 using Test
-
-include("../main.jl")
+using TestJl
 
 @test f(2) == 4
+
+@info "Tests passed"
